@@ -39,6 +39,7 @@ header{
     flex-direction: row;
     background: rgb(26,46,53);
     background: linear-gradient(90deg, rgba(26,46,53,1) 0%, rgba(28,187,180,1) 100%);
+    position: relative;
 }
 header .header-start{
     width: 55%;
