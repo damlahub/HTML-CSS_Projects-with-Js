@@ -1,9 +1,9 @@
+let headerDistance=HEADER.offsetTop;
+
 window.onscroll= function (){
     FixedScroll();
 }
 
-const HEADER=document.querySelector("header");
-let headerDistance=HEADER.offsetTop;
 
 function FixedScroll(){
     if(window.pageYOffset > headerDistance){
