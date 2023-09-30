@@ -17,7 +17,7 @@ function CreateElement() {
     section.classList.add("login-content");
     section.innerHTML = `
     <section class="login-panel">
-                    <button id="close">
+                    <button id="login-panel-close">
                         X
                     </button>
                     <h1>LOGIN</h1>
@@ -32,7 +32,7 @@ function CreateElement() {
 }
 
 function Close() {
-    let closeBtn = document.getElementById("close");
+    let closeBtn = document.getElementById("login-panel-close");
     closeBtn.addEventListener("click", function () {
         header.removeChild(header.lastElementChild);
         EnableScroll();

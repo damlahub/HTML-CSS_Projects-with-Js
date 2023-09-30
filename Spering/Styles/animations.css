@@ -8,3 +8,11 @@
         opacity: 1;
     }
 }
+@keyframes shakeAnimation {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+  }
